@@ -1,0 +1,7 @@
+machine:
+	php:
+		version: 5.3
+
+test:
+	override:
+		- ./run_tests.sh
